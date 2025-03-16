@@ -34,6 +34,8 @@ alias gd='gedit'
 alias p3='python3'
 alias ncv='npm create vite'
 alias nrd='npm run dev'
+alias nrst='npm run start'
+
 alias nrb='npm run build'
 alias nrt='npm run test'
 alias nmn='nodemon'
