@@ -11,6 +11,8 @@ alias nbrc='nvim ~/.bashrc'
 alias gcmt='git commit -m'
 alias gs='git status'
 alias gcm='git commit -m '
+alias gco='git checkout '
+
 alias gad='git add ./'
 alias gsh='git push'
 alias cf='touch'
