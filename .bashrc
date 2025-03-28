@@ -38,6 +38,15 @@ alias ncv='npm create vite'
 alias nrd='npm run dev'
 alias nrst='npm run start'
 
+alias chrome-default='google-chrome --profile-directory="Default"'
+alias chrome-guest='google-chrome --profile-directory="Guest Profile"'
+alias ch1='google-chrome --profile-directory="Profile 1"'
+alias ch18='google-chrome --profile-directory="Profile 18"'
+alias ch3='google-chrome --profile-directory="Profile 3"'
+alias ch34='google-chrome --profile-directory="Profile 34"'
+alias chrome-system='google-chrome --profile-directory="System Profile"'
+
+
 alias nrb='npm run build'
 alias nrt='npm run test'
 alias nmn='nodemon'
