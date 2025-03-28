@@ -55,6 +55,7 @@ alias pnrb='pnpm run build'
 alias pnscnin='pnpm dlx shadcn-ui@latest init'
 alias pnscc='pnpm dlx shadcn-ui@latest add'
 alias ntl='nautilus .'
+alias goc='google-chrome'
 
 alias bcv='bun create vite'
 alias brd='bun run dev'
