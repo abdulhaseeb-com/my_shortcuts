@@ -78,3 +78,39 @@ alias brd='bun run dev'
 
 alias ny='netlify '
 alias vcl='vercel '
+
+# Docker general
+alias dr='docker'
+alias dps='docker ps'
+alias dpsa='docker ps -a'
+alias di='docker images'
+alias db='docker build .'
+alias dbt='docker build -t' # usage: dbt imagename .
+alias drm='docker rm'
+alias drmi='docker rmi'
+alias dst='docker start'
+alias dsp='docker stop'
+alias drs='docker restart'
+alias dex='docker exec -it' # usage: dex container_name bash
+alias dsh='docker exec -it $(docker ps -q | head -n 1) bash' # quick shell into first running container
+
+# Docker containers and images cleanup
+alias dcl='docker container ls'
+alias dcla='docker container ls -a'
+alias dcls='docker container stop $(docker container ls -q)'
+alias dclr='docker container rm $(docker container ls -aq)'
+alias dprune='docker system prune -af --volumes'
+alias diprune='docker image prune -af'
+
+# Docker Compose
+alias dc='docker compose'
+alias dcu='docker compose up'
+alias dcub='docker compose up --build'
+alias dcd='docker compose down'
+alias dcr='docker compose restart'
+alias dclg='docker compose logs'
+alias dclgf='docker compose logs -f'
+alias dcex='docker compose exec' # usage: dcex service_name bash
+
+# Dockerfile testing shortcut
+alias dbuild='docker build -t testimage . && docker run -it --rm testimage'
