@@ -1,23 +1,14 @@
 # some more ls aliases
+# general shortcuts
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-
 alias md='mkdir'
 alias rd='rmdir'
-alias gps='git push'
-alias gcl='git clone'
 alias nbrc='nvim ~/.bashrc'
 alias nzrc='nvim ~/.zshrc'
 alias cbrc='cat ~/.bashrc'
 alias czrc='cat ~/.zshrc'
-alias gcmt='git commit -m'
-alias gs='git status'
-alias gcm='git commit -m '
-alias gco='git checkout '
-alias glg='git log'
-alias gad='git add ./'
-alias gsh='git push'
 alias cf='touch'
 alias ~='cd ~'
 alias grep='grep --color=auto'
@@ -26,20 +17,34 @@ alias cls='clear'
 alias mkdir='mkdir -p'
 alias p='cd ~'
 alias x='exit'
-alias svba='source venv/bin/active'
 alias ddc='cd ~/Documents/'
-
 alias dd='cd ~/Downloads'
-
 alias i='cd ..'
 alias cc='code .'
 alias gd='gedit'
+alias saud='sudo apt update'
+alias saug='sudo apt upgrade'
+
+
+# git shortcuts
+alias gps='git push'
+alias gcl='git clone'
+alias gcmt='git commit -m'
+alias gs='git status'
+alias gcm='git commit -m '
+alias gco='git checkout '
+alias glg='git log'
+alias gad='git add ./'
+alias gsh='git push'
+
+
+alias svba='source venv/bin/active'
 
 alias p3='python3'
 alias ncv='npm create vite'
 alias nrd='npm run dev'
 alias nrst='npm run start'
-
+# chrome shortcuts
 alias chrome-default='google-chrome --profile-directory="Default"'
 alias chrome-guest='google-chrome --profile-directory="Guest Profile"'
 alias ch1='google-chrome --profile-directory="Profile 1"'
@@ -47,14 +52,15 @@ alias ch18='google-chrome --profile-directory="Profile 18"'
 alias ch3='google-chrome --profile-directory="Profile 3"'
 alias ch34='google-chrome --profile-directory="Profile 34"'
 alias chrome-system='google-chrome --profile-directory="System Profile"'
+alias goc='google-chrome'
 
-
+# JS shortcuts
 alias nrb='npm run build'
 alias nrt='npm run test'
 alias nmn='nodemon'
 alias nscnin='npx shadcn-ui@latest init'
-alias pnscc='pnpm dlx shadcn-ui@latest add'
 
+alias pnscc='pnpm dlx shadcn-ui@latest add'
 alias pncna='pnpm create next-app'
 alias pncv='pnpm create vite'
 alias pnpi='pnpm install'
@@ -67,13 +73,8 @@ alias pnrtd='pnpm run tauri dev'
 alias pnscnin='pnpm dlx shadcn-ui@latest init'
 alias pnscc='pnpm dlx shadcn-ui@latest add'
 alias ntl='nautilus .'
-alias goc='google-chrome'
-
 alias bcv='bun create vite'
 alias brd='bun run dev'
-
-alias saud='sudo apt update'
-alias saug='sudo apt upgrade'
 
 alias ny='netlify '
 alias vcl='vercel '
