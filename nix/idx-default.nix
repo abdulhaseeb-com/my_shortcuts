@@ -20,6 +20,7 @@
       "bradlc.vscode-tailwindcss"
       "oderwat.indent-rainbow"
       "esbenp.prettier-vscode"
+      "kamikillerto.vscode-colorize"
       "dbaeumer.vscode-eslint"
       "VisualStudioExptTeam.vscodeintellicode"
       "GitHub.copilot"
