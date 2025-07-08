@@ -36,6 +36,8 @@ alias gco='git checkout '
 alias glg='git log'
 alias gad='git add ./'
 alias gsh='git push'
+alias gsw='git switch  '
+
 
 
 alias svba='source venv/bin/active'
